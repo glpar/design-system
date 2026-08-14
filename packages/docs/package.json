@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build-vite": "tsc && vite build",
-    "build": "node -e \"require('fs').accessSync('storybook-static/index.html')\"",
+    "build": "node -e \"require('fs').cpSync('storybook-static', '../../storybook-static', { recursive: true })\"",
     "build:storybook": "npm run build --workspace @glpar-ui/tokens && npm run build --workspace @glpar-ui/react && storybook build",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
