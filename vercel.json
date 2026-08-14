@@ -1,4 +1,4 @@
 {
-  "buildCommand": "npm run build --workspace @glpar-ui/docs",
+  "buildCommand": "npm run build --workspace @glpar-ui/tokens && npm run build --workspace @glpar-ui/react && npm run build --workspace @glpar-ui/docs",
   "outputDirectory": "packages/docs/storybook-static"
 }
