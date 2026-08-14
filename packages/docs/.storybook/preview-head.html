@@ -5,3 +5,37 @@
 <script>
     window.global = window;
 </script>
+
+<style>
+    html,
+    body,
+    #storybook-root {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .sbdocs-wrapper {
+        padding: clamp(1rem, 4vw, 4rem);
+    }
+
+    .sbdocs-content {
+        max-width: 100%;
+    }
+
+    .sbdocs table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    @media (max-height: 650px) {
+        .sb-show-main.sb-main-padded {
+            padding: 1rem;
+        }
+
+        .sbdocs-wrapper {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+    }
+</style>

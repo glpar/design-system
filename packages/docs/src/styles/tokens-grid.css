@@ -4,6 +4,14 @@
     color: #FFF;
     border-collapse: collapse;
   }
+
+  @media (max-width: 640px) {
+    .tokens-grid thead th,
+    .tokens-grid tbody td {
+      padding: 0.625rem 0.75rem;
+      white-space: nowrap;
+    }
+  }
   
   .tokens-grid thead th {
     padding: 0.75rem 1rem;
