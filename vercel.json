@@ -1,5 +1,5 @@
 {
   "installCommand": "node -e \"console.log('Using prebuilt Storybook')\"",
   "buildCommand": "npm run build --workspace @glpar-ui/docs",
-  "outputDirectory": "packages/docs/storybook-static"
+  "outputDirectory": "storybook-static"
 }
