@@ -40,10 +40,10 @@ npm run dev
 ## Build
 
 ```bash
-npm run build
+npm run build:storybook
 ```
 
-Esse comando gera os pacotes de tokens e componentes e também a versão estática do Storybook.
+Esse comando gera os pacotes de tokens e componentes e atualiza a versão estática do Storybook usada no deploy da Vercel.
 
 ## Fluxo de versionamento
 
@@ -53,4 +53,3 @@ npm run version-packages
 ```
 
 O Changesets registra alterações e prepara as versões dos pacotes. A publicação em um registro npm exige autenticação e configuração próprias.
-
